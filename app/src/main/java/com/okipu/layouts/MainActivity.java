@@ -35,7 +35,16 @@ public class MainActivity extends AppCompatActivity {
         int storedAge = sharedPreferences.getInt("storedAge",0);
         lbl_Age.setText("Your Age :"+storedAge);
 
+    }
 
+    public void GoParse(View view){
+        Intent parse = new Intent(MainActivity.this, ParsePlatform.class);
+        startActivity(parse);
+    }
+
+    public void Doviz(View view){
+        Intent dov = new Intent(MainActivity.this, DovizCevirici.class);
+        startActivity(dov);
     }
 
     public void MMap(View view){

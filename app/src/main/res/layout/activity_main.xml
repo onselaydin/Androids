@@ -63,8 +63,8 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:onClick="SayacaGit"
         android:text="@string/title_activity_sayac"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,8 +104,8 @@
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
         android:onClick="Art_Book"
         android:text="Art Book"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,4 +120,24 @@
         android:text="@string/title_activity_my_map"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
         app:layout_constraintStart_toEndOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:onClick="Doviz"
+        android:text="Api Json"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnMap"
+        app:layout_constraintStart_toEndOf="@+id/btnMap" />
+
+    <Button
+        android:id="@+id/btnParse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="5dp"
+        android:text="Parse"
+        app:layout_constraintEnd_toEndOf="@+id/txtAge"
+        app:layout_constraintTop_toBottomOf="@+id/txtAge" />
 </androidx.constraintlayout.widget.ConstraintLayout>
